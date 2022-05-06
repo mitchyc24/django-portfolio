@@ -4,4 +4,4 @@ from django.http import HttpResponse
 
 
 def about_view(request):
-    return(HttpResponse("About me!"))
+    return(HttpResponse("About me! \n Version 0.1"))
